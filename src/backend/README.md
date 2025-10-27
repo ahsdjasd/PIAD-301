@@ -4,45 +4,45 @@ API REST desarrollada con Node.js, Express y PostgreSQL (Prisma ORM).
 
 ## Requisitos Previos
 
-- Node.js v20 o superior
+- Node.js v22 o v20
 - npm o yarn
 - Cuenta en Neon (PostgreSQL gratuito)
 
 ## Instalación
 
 1. Clonar el repositorio:
-bash
-git clone <https://github.com/Valerrria14/Proyecto-prueba/blob/main/docs/figma/prototipos.md>
+```bash
+git clone https://github.com/Meowwuw/PIAD-301.git
 cd backend
-
+```
 
 2. Instalar dependencias:
-bash
+```bash
 npm install
-
+```
 
 3. Configurar variables de entorno:
-bash
+```bash
 cp .env
-
-Edita .env y agrega tu DATABASE_URL de Neon.
+```
+Edita `.env` y agrega tu DATABASE_URL de Neon.
 
 4. Ejecutar migraciones de Prisma:
-bash
+```bash
 npx prisma migrate dev
-
+```
 
 5. Iniciar servidor:
-bash
+```bash
 npm run dev
-
+```
 
 ## Scripts Disponibles
 
-- npm run dev - Inicia el servidor en modo desarrollo
-- npm start - Inicia el servidor en modo producción
-- npx prisma studio - Abre interfaz visual de la base de datos
-- npx prisma migrate dev - Crea y ejecuta migraciones
+- `npm run dev` - Inicia el servidor en modo desarrollo
+- `npm start` - Inicia el servidor en modo producción
+- `npx prisma studio` - Abre interfaz visual de la base de datos
+- `npx prisma migrate dev` - Crea y ejecuta migraciones
 
 ## Tecnologías
 
@@ -54,4 +54,4 @@ npm run dev
 
 ## Autor
 
-Proyecto educativo - Ingeniería de Software - Jemise Alexis
+Proyecto educativo - Ingeniería de Software - Magenta 🌟🐱✨

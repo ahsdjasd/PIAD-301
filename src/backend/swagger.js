@@ -4,11 +4,11 @@ const swaggerOptions = {
   definition: {
     openapi: "3.0.0",
     info: { 
-        title: "API REST - Proyecto PIAD-301", 
+        title: "API REST - Proyecto Steam", 
         version: "1.0.0",
         description:"Documentacion de API REST con Express, Prisma y PostgreSQL",
         contact:{
-            email:"paredesponcemagenta@gmail.com"
+            email:"jemisealexis@gmail.com"
         }
     },
     servers: [{ 

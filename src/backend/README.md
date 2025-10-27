@@ -54,4 +54,4 @@ npm run dev
 
 ## Autor
 
-Proyecto educativo - Ingeniería de Software - Magenta 🌟🐱✨
+Proyecto educativo - Ingeniería de Software - Alexis p
